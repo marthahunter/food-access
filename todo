@@ -4,9 +4,13 @@ EDA:
 * Read through food access data dictionary and take notes
 * Read through Census table info 
 
+CENSUS TRACT MATCHUP:
+* `census_tn_income_b19001` numbers are formatted as ###.##
+* `food_access` numbers are formatted as '######31000' where the last 5 digits match the census dataset tract numbers, minus the 
+
 
 Cleaning:
-* Isolate just the TN data from `food_access_df` and read into a new dataframe
+
 * Reshape `census_income_df` data 
   - Pandas reshape data
   - Pandas pivot table
@@ -17,3 +21,12 @@ Cleaning:
   - Python pandas reshape rows to columns
 * Figure out what to do with the Value/Error columns. Just keep Value?
 * 
+
+
+Notes
+
+Food Access Research Atlas:
+* Data Explanations and sources https://www.ers.usda.gov/data-products/food-access-research-atlas/download-the-data/
+* 
+
+
