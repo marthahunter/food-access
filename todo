@@ -1,0 +1,19 @@
+Capstone to-do list
+
+EDA:
+* Read through food access data dictionary and take notes
+* Read through Census table info 
+
+
+Cleaning:
+* Isolate just the TN data from `food_access_df` and read into a new dataframe
+* Reshape `census_income_df` data 
+  - Pandas reshape data
+  - Pandas pivot table
+  - Dataframe transpose in pandas
+  - Pandas melt and pivot
+  - Pandas stack and unstack
+  - Pandas wide to long format
+  - Python pandas reshape rows to columns
+* Figure out what to do with the Value/Error columns. Just keep Value?
+* 
