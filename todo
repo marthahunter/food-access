@@ -10,7 +10,6 @@ CENSUS TRACT MATCHUP:
 
 
 Cleaning:
-
 * Reshape `census_income_df` data 
   - Pandas reshape data
   - Pandas pivot table
