@@ -2,12 +2,10 @@ Capstone to-do list
 
 EDA:
 * Read through food access data dictionary and take notes
-* Read through Census table info 
-
-
+* Read through Census table info
 
 Cleaning:
-* Reshape `census_income_df` data 
+* Reshape `census_income_df` data
   - Pandas reshape data
   - Pandas pivot table
   - Dataframe transpose in pandas
@@ -18,15 +16,6 @@ Cleaning:
 * Figure out what to do with the Value/Error columns. Just keep Value?
 * Edit Census Tract headers to contain JUST the number
 
-
-Notes
-
-Food Access Research Atlas:
-* Data Explanations and sources https://www.ers.usda.gov/data-products/food-access-research-atlas/download-the-data/
+Notes:
+* Food Access Research Atlas - data explanations and sources https://www.ers.usda.gov/data-products/food-access-research-atlas/download-the-data/
 * 
-
-
-DONE!
-CENSUS TRACT MATCHUP:
-* `census_tn_income_b19001` numbers are formatted as ###.##
-* `food_access` numbers are formatted as '######31000' where the last 5 digits match the census dataset tract numbers, minus the decimal
