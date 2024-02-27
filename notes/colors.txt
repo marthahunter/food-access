@@ -1,0 +1,14 @@
+lalowi05_10 = blue
+medianfamilyincome = darkolivegreen
+lapop = #380835
+ohu_snap = #06470c
+population = #fd5956
+vehicle - #721121
+
+#f9bc08
+721121
+3e885b
+426b69
+253237
+d64933
+994636
