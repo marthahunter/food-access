@@ -9,6 +9,9 @@ __pycache__/
 # Data
 data/
 
+# shapefiles
+shape_census/
+
 # Distribution / packaging
 .Python
 build/
