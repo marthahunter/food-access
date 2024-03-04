@@ -1,6 +1,6 @@
 # food-access-capstone
 
-#### View presentation [here](https://docs.google.com/presentation/d/1HHZhbJrTp9H1aPUXc4O06NaGNVIJlHwb46_RgOt_-Fo/edit?usp=sharing)!
+## View presentation [here](https://docs.google.com/presentation/d/1HHZhbJrTp9H1aPUXc4O06NaGNVIJlHwb46_RgOt_-Fo/edit?usp=sharing)!
 
 #### Executive Summary
 Food insecurity, put simply by [Feeding America](https://www.feedingamerica.org/hunger-in-america/food-insecurity), is “When people don't have enough to eat … [or] know where their next meal will come from.” Dealing with hunger can affect many aspects of a person’s wellbeing, beyond simply physical health. This project aims to examine income and other key issues communities with higher rates of food insecurity experience. This project will utilize USA Census data and a USDA dataset examining food insecurity. Both datasets utilize Census tracts.
