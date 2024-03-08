@@ -12,9 +12,9 @@ Food insecurity, put simply by [Feeding America](https://www.feedingamerica.org/
 * Does SNAP enrollment seem to be keeping up with the state’s current needs?
 
 #### 🧠 Data Used:
-* [USDA Food Access Research Atlas](https://www.ers.usda.gov/data-products/food-access-research-atlas/)(2019)
-* [USA Census - Household Income in Tennessee](https://censusreporter.org/data/table/?table=B19001&geo_ids=04000US47,140|04000US47&primary_geo_id=04000US47)(2022)
-* [State of TN - Children Served by Program](https://data.tn.gov/dataset/resource-mapping-data-by-county)(2015-2022)
+* [USDA Food Access Research Atlas](https://www.ers.usda.gov/data-products/food-access-research-atlas/) (2019)
+* [USA Census - Household Income in Tennessee](https://censusreporter.org/data/table/?table=B19001&geo_ids=04000US47,140|04000US47&primary_geo_id=04000US47) (2022)
+* [State of TN - Children Served by Program](https://data.tn.gov/dataset/resource-mapping-data-by-county) (2015-2022)
 
 #### 📊 Technologies Used
 * Excel
