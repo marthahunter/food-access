@@ -32,7 +32,7 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='tableau_test_tn_counties_food_income_programs' name='excel-direct.1toomzg0vkp11z11lddwd1jtohcc'>
-            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Owner/OneDrive/Documents/nss_data_analytics/projects/food-access/data/tableau_test_tn_counties_food_income_programs.xlsx' interpretationMode='0' password='' server='' validate='no' />
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Owner/OneDrive/Documents/nss_data_analytics/projects/food-access/data/tableau_test_tn_counties_food_income_programs.xlsx' interpretationMode='0' password='' server='' validate='no' workgroup-auth-mode='as-is' />
           </named-connection>
         </named-connections>
         <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1toomzg0vkp11z11lddwd1jtohcc' name='children_served' table='[children_served$]' type='table'>
@@ -3881,7 +3881,7 @@
             <column-instance column='[Children Served]' derivation='Avg' name='[avg:Children Served:qk]' pivot='key' type='quantitative' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.1lgafun09izddw1685j490hf6cwp].[Action (Name (tn!counties!food!access!census!))]'>
-            <groupfilter function='member' level='[Name (tn!counties!food!access!census!)]' member='&quot;Davidson&quot;' user:ui-action-filter='[Action1_9844B4481479453882BC09EBF5477578]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+            <groupfilter function='level-members' level='[Name (tn!counties!food!access!census!)]' user:ui-action-filter='[Action1_9844B4481479453882BC09EBF5477578]' user:ui-enumeration='all' user:ui-marker='enumerate' />
           </filter>
           <slices>
             <column>[federated.1lgafun09izddw1685j490hf6cwp].[Action (Name (tn!counties!food!access!census!))]</column>
@@ -3967,7 +3967,7 @@
             <column caption='pct LOWI' datatype='real' name='[pct_LOWI]' role='measure' type='quantitative' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.1lgafun09izddw1685j490hf6cwp].[Action (Name (tn!counties!food!access!census!))]'>
-            <groupfilter function='member' level='[Name (tn!counties!food!access!census!)]' member='&quot;Davidson&quot;' user:ui-action-filter='[Action1_9844B4481479453882BC09EBF5477578]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+            <groupfilter function='level-members' level='[Name (tn!counties!food!access!census!)]' user:ui-action-filter='[Action1_9844B4481479453882BC09EBF5477578]' user:ui-enumeration='all' user:ui-marker='enumerate' />
           </filter>
           <slices>
             <column>[federated.1lgafun09izddw1685j490hf6cwp].[Action (Name (tn!counties!food!access!census!))]</column>
@@ -4034,7 +4034,7 @@
             <column caption='Pct No Vehicle' datatype='real' name='[pct_no_vehicle]' role='measure' type='quantitative' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.1lgafun09izddw1685j490hf6cwp].[Action (Name (tn!counties!food!access!census!))]'>
-            <groupfilter function='member' level='[Name (tn!counties!food!access!census!)]' member='&quot;Davidson&quot;' user:ui-action-filter='[Action1_9844B4481479453882BC09EBF5477578]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+            <groupfilter function='level-members' level='[Name (tn!counties!food!access!census!)]' user:ui-action-filter='[Action1_9844B4481479453882BC09EBF5477578]' user:ui-enumeration='all' user:ui-marker='enumerate' />
           </filter>
           <slices>
             <column>[federated.1lgafun09izddw1685j490hf6cwp].[Action (Name (tn!counties!food!access!census!))]</column>
@@ -4172,7 +4172,7 @@
             <column-instance column='[Agency_Name]' derivation='None' name='[none:Agency_Name:nk]' pivot='key' type='nominal' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.1lgafun09izddw1685j490hf6cwp].[Action (Name (tn!counties!food!access!census!))]'>
-            <groupfilter function='member' level='[Name (tn!counties!food!access!census!)]' member='&quot;Davidson&quot;' user:ui-action-filter='[Action1_9844B4481479453882BC09EBF5477578]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+            <groupfilter function='level-members' level='[Name (tn!counties!food!access!census!)]' user:ui-action-filter='[Action1_9844B4481479453882BC09EBF5477578]' user:ui-enumeration='all' user:ui-marker='enumerate' />
           </filter>
           <slices>
             <column>[federated.1lgafun09izddw1685j490hf6cwp].[Action (Name (tn!counties!food!access!census!))]</column>
@@ -4265,13 +4265,13 @@
             <column-instance column='[Year]' derivation='None' name='[none:Year:qk]' pivot='key' type='quantitative' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.1lgafun09izddw1685j490hf6cwp].[Action (Name (tn!counties!food!access!census!))]'>
-            <groupfilter function='member' level='[Name (tn!counties!food!access!census!)]' member='&quot;Davidson&quot;' user:ui-action-filter='[Action1_9844B4481479453882BC09EBF5477578]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+            <groupfilter function='level-members' level='[Name (tn!counties!food!access!census!)]' user:ui-action-filter='[Action1_9844B4481479453882BC09EBF5477578]' user:ui-enumeration='all' user:ui-marker='enumerate' />
           </filter>
           <filter class='categorical' column='[federated.1lgafun09izddw1685j490hf6cwp].[attr:Program_Name:nk]'>
             <groupfilter function='level-members' level='[attr:Program_Name:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
           </filter>
           <filter class='categorical' column='[federated.1lgafun09izddw1685j490hf6cwp].[none:Program_Name:nk]'>
-            <groupfilter function='level-members' level='[none:Program_Name:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+            <groupfilter function='member' level='[none:Program_Name:nk]' member='&quot;SNP School Breakfast Program&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
           </filter>
           <slices>
             <column>[federated.1lgafun09izddw1685j490hf6cwp].[attr:Program_Name:nk]</column>
@@ -4365,7 +4365,7 @@
             <column-instance column='[Expenditure]' derivation='Sum' name='[sum:Expenditure:qk]' pivot='key' type='quantitative' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.1lgafun09izddw1685j490hf6cwp].[Action (Name (tn!counties!food!access!census!))]'>
-            <groupfilter function='member' level='[Name (tn!counties!food!access!census!)]' member='&quot;Davidson&quot;' user:ui-action-filter='[Action1_9844B4481479453882BC09EBF5477578]' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+            <groupfilter function='level-members' level='[Name (tn!counties!food!access!census!)]' user:ui-action-filter='[Action1_9844B4481479453882BC09EBF5477578]' user:ui-enumeration='all' user:ui-marker='enumerate' />
           </filter>
           <slices>
             <column>[federated.1lgafun09izddw1685j490hf6cwp].[Action (Name (tn!counties!food!access!census!))]</column>
@@ -4559,8 +4559,8 @@
           </layout-options>
           <size maxheight='1350' minheight='1350' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='28' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98000' id='27' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
+            <zone h='100000' id='32' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='31' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000'>
                 <zone fixed-size='61' h='8625' id='22' type-v2='title' w='98400' x='800' y='1000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -4616,7 +4616,7 @@
                     <format attr='background-color' value='#fffdf6' />
                   </zone-style>
                 </zone>
-                <zone h='5613' id='6' mode='checkdropdown' name='Children Served Lineplot' param='[federated.1lgafun09izddw1685j490hf6cwp].[none:Program_Name:nk]' type-v2='filter' w='69900' x='800' y='93387'>
+                <zone h='4000' id='6' mode='checkdropdown' name='Children Served Lineplot' param='[federated.1lgafun09izddw1685j490hf6cwp].[none:Program_Name:nk]' type-v2='filter' w='69900' x='800' y='95000'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -4625,7 +4625,7 @@
                     <format attr='padding' value='0' />
                   </zone-style>
                 </zone>
-                <zone fixed-size='280' h='39637' id='1' is-fixed='true' name='Children Served Lineplot' w='69900' x='800' y='53750'>
+                <zone fixed-size='280' h='41250' id='1' is-fixed='true' name='Children Served Lineplot' w='69900' x='800' y='53750'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
                     <format attr='border-style' value='none' />
@@ -4659,8 +4659,36 @@
       <simple-id uuid='{86E5145B-2277-4FBE-A2A8-BF557394C1AB}' />
     </dashboard>
   </dashboards>
-  <windows pres-mode='true' source-height='30'>
-    <window class='worksheet' name='Children Served Lineplot'>
+  <windows source-height='30'>
+    <window class='dashboard' maximized='true' name='County Food Insecurity Dashboard'>
+      <viewpoints>
+        <viewpoint name='# Children Served'>
+          <zoom type='fit-width' />
+        </viewpoint>
+        <viewpoint name='% LOWI'>
+          <zoom type='fit-width' />
+        </viewpoint>
+        <viewpoint name='% No Vehicle'>
+          <zoom type='fit-width' />
+        </viewpoint>
+        <viewpoint name='% SNAP Map'>
+          <zoom type='entire-view' />
+          <default-map-tool-selection tool='1' />
+        </viewpoint>
+        <viewpoint name='Agency Pie'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Children Served Lineplot'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Money Spent'>
+          <zoom type='fit-width' />
+        </viewpoint>
+      </viewpoints>
+      <active id='7' />
+      <simple-id uuid='{476CBA2D-A990-4588-A6C2-97A618209826}' />
+    </window>
+    <window class='worksheet' hidden='true' name='# Children Served'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -4680,15 +4708,56 @@
             <card type='title' />
           </strip>
         </edge>
-        <edge name='right'>
+      </cards>
+      <simple-id uuid='{D1BA0EB0-DD5F-4D04-A4E5-56F05798FFC0}' />
+    </window>
+    <window class='worksheet' hidden='true' name='% LOWI'>
+      <cards>
+        <edge name='left'>
           <strip size='160'>
-            <card mode='checkdropdown' param='[federated.1lgafun09izddw1685j490hf6cwp].[none:Program_Name:nk]' type='filter' />
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
           </strip>
         </edge>
       </cards>
-      <simple-id uuid='{C1974D5B-6E7E-4A74-8E0A-BABEC0B5973D}' />
+      <simple-id uuid='{5B33C45A-BF33-4A07-A4B6-2D66E45A22D5}' />
     </window>
-    <window class='worksheet' name='% SNAP Map'>
+    <window class='worksheet' hidden='true' name='% No Vehicle'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{83350A7F-CD57-451A-8009-CC28112E00AD}' />
+    </window>
+    <window class='worksheet' hidden='true' name='% SNAP Map'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -4716,7 +4785,7 @@
       </cards>
       <simple-id uuid='{64DAB59E-97B3-442B-8AE1-38CACA974309}' />
     </window>
-    <window class='worksheet' name='Agency Pie'>
+    <window class='worksheet' hidden='true' name='Agency Pie'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -4745,7 +4814,7 @@
       </cards>
       <simple-id uuid='{7CA638DB-29E4-4963-89A8-6A8216010B9F}' />
     </window>
-    <window class='worksheet' name='# Children Served'>
+    <window class='worksheet' hidden='true' name='Children Served Lineplot'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -4765,10 +4834,15 @@
             <card type='title' />
           </strip>
         </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card mode='checkdropdown' param='[federated.1lgafun09izddw1685j490hf6cwp].[none:Program_Name:nk]' type='filter' />
+          </strip>
+        </edge>
       </cards>
-      <simple-id uuid='{D1BA0EB0-DD5F-4D04-A4E5-56F05798FFC0}' />
+      <simple-id uuid='{C1974D5B-6E7E-4A74-8E0A-BABEC0B5973D}' />
     </window>
-    <window class='worksheet' name='Money Spent'>
+    <window class='worksheet' hidden='true' name='Money Spent'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -4790,80 +4864,6 @@
         </edge>
       </cards>
       <simple-id uuid='{4EFE65B5-15F4-4251-8DC3-EFB4697CB47A}' />
-    </window>
-    <window class='worksheet' name='% LOWI'>
-      <cards>
-        <edge name='left'>
-          <strip size='160'>
-            <card type='pages' />
-            <card type='filters' />
-            <card type='marks' />
-          </strip>
-        </edge>
-        <edge name='top'>
-          <strip size='2147483647'>
-            <card type='columns' />
-          </strip>
-          <strip size='2147483647'>
-            <card type='rows' />
-          </strip>
-          <strip size='31'>
-            <card type='title' />
-          </strip>
-        </edge>
-      </cards>
-      <simple-id uuid='{5B33C45A-BF33-4A07-A4B6-2D66E45A22D5}' />
-    </window>
-    <window class='worksheet' name='% No Vehicle'>
-      <cards>
-        <edge name='left'>
-          <strip size='160'>
-            <card type='pages' />
-            <card type='filters' />
-            <card type='marks' />
-          </strip>
-        </edge>
-        <edge name='top'>
-          <strip size='2147483647'>
-            <card type='columns' />
-          </strip>
-          <strip size='2147483647'>
-            <card type='rows' />
-          </strip>
-          <strip size='31'>
-            <card type='title' />
-          </strip>
-        </edge>
-      </cards>
-      <simple-id uuid='{83350A7F-CD57-451A-8009-CC28112E00AD}' />
-    </window>
-    <window class='dashboard' maximized='true' name='County Food Insecurity Dashboard'>
-      <viewpoints>
-        <viewpoint name='# Children Served'>
-          <zoom type='fit-width' />
-        </viewpoint>
-        <viewpoint name='% LOWI'>
-          <zoom type='fit-width' />
-        </viewpoint>
-        <viewpoint name='% No Vehicle'>
-          <zoom type='fit-width' />
-        </viewpoint>
-        <viewpoint name='% SNAP Map'>
-          <zoom type='entire-view' />
-          <default-map-tool-selection tool='1' />
-        </viewpoint>
-        <viewpoint name='Agency Pie'>
-          <zoom type='entire-view' />
-        </viewpoint>
-        <viewpoint name='Children Served Lineplot'>
-          <zoom type='entire-view' />
-        </viewpoint>
-        <viewpoint name='Money Spent'>
-          <zoom type='fit-width' />
-        </viewpoint>
-      </viewpoints>
-      <active id='-1' />
-      <simple-id uuid='{476CBA2D-A990-4588-A6C2-97A618209826}' />
     </window>
   </windows>
 </workbook>
